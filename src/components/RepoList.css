@@ -1,0 +1,78 @@
+.repo-list-section {
+  width: 100%;
+}
+
+.repo-list-header {
+  border-bottom: 1px solid #30363d;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f0f6fc;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.repo-count {
+  display: inline-block;
+  padding: 2px 5px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  color: #f0f6fc;
+  background-color: rgba(110, 118, 129, 0.4);
+  border-radius: 2em;
+}
+
+.filter-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.filter-btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #8b949e;
+  padding: 4px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 2em;
+  transition: .2s;
+}
+
+.filter-btn:hover {
+  background-color: rgba(177, 186, 196, 0.12);
+  color: #c9d1d9;
+}
+
+.filter-btn.active {
+  background-color: #238636;
+  color: #ffffff;
+  border-color: rgba(240, 246, 252, 0.1);
+}
+
+.repo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.no-projects {
+  color: #8b949e;
+  font-size: 14px;
+  text-align: center;
+  padding: 32px 0;
+}
+
+@media (max-width: 768px) {
+  .repo-grid {
+    grid-template-columns: 1fr;
+  }
+}
