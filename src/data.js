@@ -4,6 +4,7 @@ import project3Banner from './assets/flipkart.jpeg';
 import project4Banner from './assets/bank.jpeg';
 import resumePDF from './assets/dva-resume.pdf';
 import traindashImage from './assets/traindash.png';
+import flipkartDash from './assets/flipdash.png';
 
 export const profileInfo = {
   name: "Lakshyalamba",
@@ -64,7 +65,7 @@ export const projects = [
     impact: "Helps understand product performance, sales growth, and customer behavior for smarter e-commerce strategy.",
     tags: ["E-commerce Analytics", "Tableau", "Excel", "Dashboard", "Business Intelligence"],
     githubUrl: "https://github.com/Lakshyalamba/flipkart-dashboard-project",
-    liveUrl: "#",
+    liveUrl: flipkartDash,
     image: project3Banner,
   },
   {
