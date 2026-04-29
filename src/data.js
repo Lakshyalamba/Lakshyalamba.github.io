@@ -2,6 +2,7 @@ import project1Banner from './assets/diabities.png';
 import project2Banner from './assets/train.jpeg';
 import project3Banner from './assets/flipkart.jpeg';
 import project4Banner from './assets/bank.jpeg';
+import resumePDF from './assets/dva-resume.pdf';
 
 export const profileInfo = {
   name: "Lakshyalamba",
@@ -16,7 +17,7 @@ export const contactInfo = {
   phone: "9034181961",
   github: "https://github.com/Lakshyalamba",
   linkedin: "https://www.linkedin.com/in/lakshyachoudhary26/",
-  resume: "#",
+  resume: resumePDF,
 };
 
 export const skills = [
