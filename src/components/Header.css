@@ -1,0 +1,50 @@
+.header {
+  background-color: #161b22;
+  border-bottom: 1px solid #30363d;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.github-logo {
+  color: #f0f6fc;
+}
+
+.breadcrumb {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.username {
+  color: #58a6ff;
+  cursor: pointer;
+}
+
+.username:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  color: #8b949e;
+  font-weight: normal;
+}
+
+.repo-name {
+  color: #f0f6fc;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 12px 16px;
+  }
+}
