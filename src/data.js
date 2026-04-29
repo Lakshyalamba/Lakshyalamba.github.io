@@ -3,6 +3,7 @@ import project2Banner from './assets/train.jpeg';
 import project3Banner from './assets/flipkart.jpeg';
 import project4Banner from './assets/bank.jpeg';
 import resumePDF from './assets/dva-resume.pdf';
+import traindashImage from './assets/traindash.png';
 
 export const profileInfo = {
   name: "Lakshyalamba",
@@ -52,7 +53,7 @@ export const projects = [
     impact: "Helps identify frequent delay causes and supports better public transit planning and service improvement.",
     tags: ["Transportation Analytics", "Tableau", "Excel", "Data Visualization", "Dashboard"],
     githubUrl: "https://github.com/anand-242003/SectionC_Group17_TTC-Subway_Delay_Data",
-    liveUrl: "#",
+    liveUrl: traindashImage,
     image: project2Banner,
   },
   {
