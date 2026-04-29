@@ -42,7 +42,7 @@ export const projects = [
     impact: "Helps healthcare teams detect high-risk patients early, reduce avoidable readmissions, and improve patient care.",
     tags: ["Healthcare Analytics", "Python", "Tableau", "Data Visualization", "Machine Learning"],
     githubUrl: "https://github.com/Lakshyalamba/SectionC_G-10_DiabetesReadmissionAnalysis",
-    liveUrl: "#",
+    liveUrl: "https://public.tableau.com/app/profile/ayush.mittal4873/viz/DVACapstoneDiabetesReadmissionAnalysis_v2025_3/Dashboard_Executive_Overview?publish=yes",
     image: project1Banner,
   },
   {
