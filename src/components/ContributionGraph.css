@@ -1,91 +1,44 @@
 .contribution-section {
   margin-top: 32px;
-  border: 1px solid #30363d;
-  border-radius: 6px;
-  background-color: #0d1117;
-  padding: 16px;
 }
 
-.contribution-header {
-  margin-bottom: 8px;
-}
-
-.contribution-title {
-  font-size: 16px;
-  font-weight: 400;
-  color: #f0f6fc;
-}
-
-.contribution-graph-container {
-  overflow-x: auto;
-}
-
-.contribution-graph {
-  display: flex;
-  gap: 3px;
-  margin-bottom: 16px;
-  padding-bottom: 8px;
-}
-
-.contribution-week {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.contribution-cell {
-  width: 10px;
-  height: 10px;
-  border-radius: 2px;
-  outline-offset: -1px;
-}
-
-/* GitHub Dark Theme Contribution Colors */
-.contribution-cell.level-0 {
-  background-color: #161b22;
-  outline: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.contribution-cell.level-1 {
-  background-color: #0e4429;
-}
-
-.contribution-cell.level-2 {
-  background-color: #006d32;
-}
-
-.contribution-cell.level-3 {
-  background-color: #26a641;
-}
-
-.contribution-cell.level-4 {
-  background-color: #39d353;
-}
-
-.contribution-footer {
+.section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
-  color: #8b949e;
-  padding-top: 8px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
-.contribution-link {
-  color: #8b949e;
-  text-decoration: none;
+.section-header h2 {
+  color: #f0f6fc;
+  font-size: 22px;
+  margin: 0;
 }
 
-.contribution-link:hover {
+.contribution-text {
+  color: #8b949e;
+  margin: 8px 0 16px;
+}
+
+.contribution-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.github-profile-btn {
   color: #58a6ff;
+  border: 1px solid #30363d;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.contribution-legend {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.contribution-legend span {
-  margin: 0 4px;
+.github-profile-btn:hover {
+  background: #21262d;
+  border-color: #58a6ff;
 }
